@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonnie's blog
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f5e5;
+        }
+        header {
+            background-color: #d2f1d1;
+            color: #dbdfa7;
+            text-align: center;
+            padding: 30px;
+        }
+        .container {
+            display: flex;
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 50%;
+            height: auto;
+            display: block;
+        }
+        h1, h2 {
+            color: #2c8196;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hi There! I am Bonnie!</h1>
+</header>
+
+<div class="container">
+    <img th:src="@{/unnamed.jpg}" alt="Personal Photograph">
+
+
+
+    <section>
+        <h2>Bonnie's Adventure Hub</h2>
+        <ul>
+            <li>Welcome to my personal corner of the web! I'm Bonnie, a lover of the great outdoors and all things creative. Whether I'm trekking through rugged mountain trails, capturing stunning moments with my camera lens, or experimenting with new recipes in the kitchen, I'm always seeking new adventures and experiences. Snowboarding down pristine slopes is another passion of mine, adding an exhilarating edge to my love for nature and exploration. But beyond my hobbies, what truly excites me is connecting with people from diverse backgrounds and immersing myself in the beauty of different cultures. Let's embark on this journey together, sharing stories, forging friendships, and celebrating the rich tapestry of our world!</li>
+
+        </ul>
+    </section>
+
+
+</div>
+
+</body>
+</html>
